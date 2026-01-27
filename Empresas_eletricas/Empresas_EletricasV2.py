@@ -242,7 +242,7 @@ with sqlite3.connect(nome_Banco_Empresas) as conexao:
         else:
             print(f'  -> Falha ao processar {ticker}.')
         
-        #time.sleep(1) # Pausa leve entre empresas
+        time.sleep(1) # Pausa leve entre empresas
 
 
 print("\n" + "="*45)
